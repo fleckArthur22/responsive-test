@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        padding: 15px 25px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+      }
+
+      .menu ul {
+        display: flex;
+      }
+
+      .menu li {
+        padding: 0 10px;
+      }
+
+      .menu li a {
+        color: black;
+      }
+
+      .sec {
+        display: flex;
+        text-align: center;
+        margin-top: 50px;
+        align-items: center;
+      }
+
+      .sec p {
+        background-color: rgb(160, 254, 160);
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      @media (max-width: 700px) {
+        .sec {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="./logo.png" alt="" />
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">NEWS</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <section>
+        <div class="sec">
+          <div class="sec-left">
+            <img src="./img1.png" alt="" />
+          </div>
+
+          <div class="sec-right">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Perspiciatis quos, repellendus suscipit nisi enim fugit vero.
+              Quisquam similique quas ullam velit facilis debitis iste
+              molestias!
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
